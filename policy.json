@@ -1,0 +1,13 @@
+{
+  "policy_version": "1.0",
+  "command": "curl",
+  "network_policies": {
+    "allowed_domains": ["example.com", "iisc.ac.in"]
+  },
+  "filesystem_policies": {
+    "allowed_write_dirs": ["/tmp/curl_downloads/"]
+  },
+  "security_policies": {
+    "blocked_environment": ["PASSWORD", "KEY", "SECRET"]
+  }
+}

@@ -1,4 +1,4 @@
-````markdown
+
 # sandbox_tool – cURL Sandbox with eBPF + ENV Filter (SEC-001)
 
 This project enforces **network**, **filesystem**, and **environment-variable** policies on the `curl` command using:
@@ -25,7 +25,7 @@ It is designed to satisfy the E0256 “User Command Sandbox” assignment requir
 
   ```text
   /tmp/curl_downloads/
-````
+
 
 * Writes to any other path (e.g., `/tmp/not_allowed`, `/etc/hosts`) are **blocked** with:
 
